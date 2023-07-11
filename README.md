@@ -56,13 +56,13 @@ Multiply the challenge by the number of characters and number of rounds to hold 
 
 To execute a challenge the challenged player or players each draw 2 tokens from $T$. If they are both the same token, they act as a token of 1 higher level. Players *must* explain how they use their drawn tokens to resolve the challenge. So long as the value $\sum\textrm{Drawn Tokens}.L\geq\textrm{Rating}$ the challenged succeeds.
 
-Whenever players draw tokens they loose AP equal to the $\sum\textrm{Drawn Tokens}.L$.
+Whenever players draw tokens they loose AP equal to the number of tokens drawn.
 
 ## Straining
 Players may strain up to $L$. When a player strains, they may draw an additional token. They may now use any two of the drawn tokens in the challenge. 
 
 ### Dealing with Strain
-When player has strain, they subtract their strain from their $A$ at the start of their activation, and after every challenge any player initiates (or causes to be initiated in cases such as traps). 
+When player has strain, they subtract their strain from their $AP$ at the start of their activation, and after every challenge any player initiates (or causes to be initiated in cases such as traps). 
 
 ### Soothing Strain
 Players strain is removed at the start of any mission, during anytime players would be able to relax for sufficient time, or if another player takes the soothe action while in combat.
@@ -87,7 +87,7 @@ Delay their activation until after a designated friendly
 Actions that require more thought that walking, eating, or waiting!
 
 ### Making a Challenge / Attacking an Enemy
-Attacking an enemy is a Challenge. Other challenges may be used if a player want to (such as destroying parts of the environment). Enemies are dealt damage equal to $\sum\textrm{Drawn Tokens}.L$
+Attacking an enemy is a Challenge. Other challenges may be used if a player want to (such as destroying parts of the environment). Enemies are dealt damage equal to $\sum\textrm{Drawn Tokens}.L+1$ distributed into as many instances of damage as makes sense.
 
 ### Taking Cover
 A character taking cover may make a challenge to make cover, or if cover is apparent may take cover by forgoing any further actions this activation.
