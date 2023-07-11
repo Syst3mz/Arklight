@@ -54,9 +54,9 @@ Multiply the challenge by the number of characters and number of rounds to hold 
 | 4      | Extremely Challenging |
 
 
-To execute a challenge the challenged player or players each draw 2 tokens from $T$. If they are both the same token, they act as a token of 1 higher level. Players *must* explain how they use their drawn tokens to resolve the challenge. So long as the value $\sum\textrm{Drawn Tokens}.H\geq\textrm{Rating}$ the challenged succeeds.
+To execute a challenge the challenged player or players each draw 2 tokens from $T$. If they are both the same token, they act as a token of 1 higher level. Players *must* explain how they use their drawn tokens to resolve the challenge. So long as the value $\sum\textrm{Drawn Tokens}.L\geq\textrm{Rating}$ the challenged succeeds.
 
-Whenever players draw tokens they loose AP equal to the $\sum\textrm{Drawn Tokens}.H$.
+Whenever players draw tokens they loose AP equal to the $\sum\textrm{Drawn Tokens}.L$.
 
 ## Straining
 Players may strain up to $L$. When a player strains, they may draw an additional token. They may now use any two of the drawn tokens in the challenge. 
@@ -87,7 +87,7 @@ Delay their activation until after a designated friendly
 Actions that require more thought that walking, eating, or waiting!
 
 ### Making a Challenge / Attacking an Enemy
-Attacking an enemy is a Challenge. Other challenges may be used if a player want to (such as destroying parts of the environment). Enemies are dealt damage equal to $\sum\textrm{Drawn Tokens}.H$
+Attacking an enemy is a Challenge. Other challenges may be used if a player want to (such as destroying parts of the environment). Enemies are dealt damage equal to $\sum\textrm{Drawn Tokens}.L$
 
 ### Taking Cover
 A character taking cover may make a challenge to make cover, or if cover is apparent may take cover by forgoing any further actions this activation.
@@ -95,7 +95,7 @@ A character taking cover may make a challenge to make cover, or if cover is appa
 Being in cover grants you increased defenses. Reduce each incoming instance of damage by 2.
 
 ### Regenerate Shield
-A character may regenerate their shield by making a challenge. They recover $2\sum\textrm{Drawn Tokens}.H$ up to their maximum shield.
+A character may regenerate their shield by making a challenge. They recover $2\sum\textrm{Drawn Tokens}.L$ up to their maximum shield.
 
 ### Soothe
 Provided the target is in cover, a friendly in adjacency can use their activation to soothe the target. You remove $L$ strain from your target
